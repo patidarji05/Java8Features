@@ -71,3 +71,5 @@ public class PredicateClass {
 	}
 
 }
+
+// Predicate is used to check the condition its test method return boolean value only.
