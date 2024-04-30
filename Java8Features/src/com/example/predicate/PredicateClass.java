@@ -52,7 +52,7 @@ public class PredicateClass {
 		int[] arr = {1,2,3,4,5,6,7,8,9,10};
 		List<Integer>  liPredicate = Arrays.stream(arr).boxed().collect(Collectors.toList());
 	    int sum = liPredicate.stream().filter(x -> x%2==0).mapToInt( x -> x).sum();
-	    System.out.println(sum);
+	    System.out.println( "sum :"+sum);
 	    
 	    int odd = liPredicate.stream().filter(x -> x%2 !=0).mapToInt(x -> x).sum();
 	    System.out.println(odd);
